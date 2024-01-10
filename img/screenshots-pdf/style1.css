@@ -1,0 +1,79 @@
+@media screen and (max-width:477px) {
+    header{
+        width: 300px;
+    }
+    .header_logo img{
+        width: 30px;
+        height: 40px;
+        background-color: aqua;
+     }
+     header img{
+        margin-left: 10px;
+    }
+    nav ul{
+       
+       
+        gap: 5px;
+        margin-right: 10px;
+    }
+    #banner img{
+    
+        width: 300px;
+        height: 300px;
+        /* display: block; */
+        object-fit :cover;
+        /* position: absolute; */
+    
+    }
+    .text{
+        padding: 5px;
+        margin: 10px;
+        position: absolute;
+        font-size: 10px;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    #banner button{
+        height: 25px;
+        width: 100px;
+        color: darkgreen;
+        border-style: none;
+        font-size: large;
+        background:url(../button.png) no-repeat center/cover;
+        position: absolute;
+       font-weight: bold;
+        top: 100px;
+    }
+    .features{
+        margin: 10px 0px 10px 0px;
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+    .features .card1{
+        height: 100px;
+        width: 130px;
+       
+        border-radius: 10px;
+    }
+    .features .card1 img{
+        height: 50px;
+        width: 50px;
+        /* padding: 20px; */
+        
+    
+    }
+    .features .card1 button{
+    
+        
+        margin: 5px;
+        border-style: none;
+        color: green;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+}
