@@ -1,0 +1,654 @@
+@media  only screen and (min-device-width:320px) and (max-device-width:480px){
+    header{
+        width: 100%;
+        
+    }
+    .header_logo img{
+        width: 30px;
+        height: 40px;
+        background-color: aqua;
+     }
+     header img{
+        margin-left: 10px;
+    }
+    nav ul{
+       
+       
+        gap: 5px;
+        margin-right: 10px;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    
+    
+    
+    #banner img{
+    
+        
+        height: 300px;
+        /* display: block; */
+        object-fit :cover;
+        /* position: absolute; */
+    
+    }
+    .text{
+        padding: 5px;
+        margin: 10px;
+        position: absolute;
+        font-size: 10px;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    #banner button{
+        height: 25px;
+        width: 100px;
+        color: darkgreen;
+        border-style: none;
+        font-size: large;
+        background:url(../button.png) no-repeat center/cover;
+        position: absolute;
+       font-weight: bold;
+        top: 100px;
+    }
+    .features{
+        margin: 10px 0px 10px 0px;
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+    .features .card1{
+        height: 100px;
+        width: 130px;
+       
+        border-radius: 10px;
+    }
+    .features .card1 img{
+        height: 50px;
+        width: 50px;
+        /* padding: 20px; */
+        
+    
+    }
+    .features .card1 button{
+    
+        
+        margin: 5px;
+        border-style: none;
+        color: green;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+    .products .card1{
+        height: 200px;
+        width: 150px;
+        position: relative;
+        border: 0.5px inset lightgrey;
+        border-radius: 10px;
+        padding: 10px;
+        
+    }
+    .products .card1 img{
+        height: 100px;
+        width: 100px;
+        
+        border-radius: 10px;
+    }
+    
+    .cart-icon{
+    position: absolute;
+    right: 25px;
+    bottom: 18px;
+    color:green;
+                
+    }
+    .card1 input{
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        left: 120px;
+        bottom: 15px;
+        background-color: rgb(166, 227, 166);
+        border-style: none;
+    }
+    .banner2{
+        width: 150px;
+        height: 150px;
+        background: url(/img/banner/b17.jpg) no-repeat center ;
+        background-size: 100% 100%;
+        padding: 10px 0px 0px 10px ;
+        color: white;
+        position: relative;
+        left: 20px;
+        font-size: small;
+    }
+    .banner3{
+        width: 150px;
+        height: 150px;
+        
+        background: url(/img/banner/b10.jpg) no-repeat;
+        background-size: cover;
+        padding:  10px 0px 0px 10px ;
+        position: relative;
+       left: 100px;
+       font-size: small;
+        
+    
+    }
+    .banners{
+        
+        gap: 10px;
+       
+        margin: 10px 0px 10px 0px;
+    }
+    .banner4{
+        height: 100px;
+        background-size: 100% 100%; 
+        font-size:xx-small;
+        
+    }
+    .banner5{
+        height: 100px;
+        background-size: 100% 100%;
+        color: white;
+        font-size: xx-small; 
+    }
+    .banner6{
+        height: 100px;
+        background-size: 100% 100%;
+       font-size: xx-small;
+    }
+    .banner7{
+        height: 100px;
+    }
+    .part1{
+        margin-left: 20px;
+        font-size: xx-small;
+    }
+    .part2{
+        display: flex;
+        margin-right: 10px;
+        padding:0px;
+        height: 10px;
+        /* padding-top: 20px; */
+    
+    }
+    .button1{
+        padding:0px;
+    }
+    .email input{
+        padding: 0px;
+    }
+    .footer1{
+        margin: 10px 0px 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: xx-small;
+    }
+    .follow{
+        padding-left: 5px;
+    }
+    .contact2 img{
+        height: 50px;
+        width: 50px;
+
+    }
+    .installapp2 img{
+        height: 50px;
+        width: 50px;
+    }
+    .products1{
+        height: 22px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    .shirt img{
+        height: 100px;
+        width: 100px;
+    }
+    .product2{
+        height: 200px;
+        width: 100px;
+    
+        
+    }
+    .details{
+        width: 150px;
+        height: 200px;
+        font-size: xx-small;
+    }
+    .details input{
+        height: 5px; width: 5px;
+        font-size: xx-small;
+    }
+    .details button{
+        padding: 0px;
+    }
+    .product{
+       
+        gap: 10px;
+       
+        margin: 40px 0px 40px 0px;
+        
+    }
+    .contact1{
+       
+        margin: 20px 0px 50px 0px;
+    }
+    .map img{
+        height: 100px;
+        width: 100px;
+    }
+    .feedback input{
+       padding: 5px 200px 5px 5px;
+    }
+    .feedback textarea{
+        padding: 5px 200px 5px 5px;
+    }
+    .details2{
+        height: 100px;
+        width: 200px;
+        padding: 10px 0px 5px 0px;
+        font-size: xx-small;
+        
+    }
+    .people_img1{
+        height: 50px;
+        width: 50px;
+        
+    }
+    .people_img2{
+        height: 50px;
+        width: 50px;
+        
+    }
+    .people_img3{
+        height: 50px;
+        width: 50px;
+        
+    }
+    .people1{
+       
+        gap: 5px;
+        margin: 5px;
+        font-size: xx-small;
+    }
+    .feedback{
+        font-size: xx-small;
+    }
+    .feedback input{
+        padding:0px;
+
+     }
+     .feedback textarea{
+         padding:0px;
+     }
+     .form1{
+        
+        
+        margin: 5px;
+        padding: 0px;
+    }
+    .about1 img{
+        height: 150px;
+        width: 120px;
+    }
+    .know_us{
+        height: 200px;
+        width: 200px;
+      font-size: xx-small;
+      padding: 0px 0px 20px 0px;
+    }
+    video{
+        height: 200px;
+        width: 150px;
+    }
+   
+        .blog1_img{
+            height: 150px;
+            width: 150px;
+        }
+        .blog1_text{
+            height: 150px;
+            width: 150px;
+            margin-top:0px;
+            padding-top: 10px;
+            font-size: xx-small;
+            
+        }
+        .blog2_img{
+            height: 150px;
+            width: 150px;
+           
+        }
+        .blog3_img{
+            height: 150px;
+            width:150px;
+           
+        }
+        .blog4_img{
+            height: 150px;
+            width:150px;
+           
+        }
+        .blog5_img{
+            height: 150px;
+            width:150px;
+           
+        }
+        td,th{
+            font-size: xx-small;
+        }
+        .cart{
+           
+            margin: 10px;
+            
+        }
+        .cart_total{
+            
+            width: 150px;
+            height: 100px;
+            padding: 10px;
+            margin-right:10px;
+            font-size: xx-small;
+            
+        }
+        .form2{
+            margin-left:10px ;
+            font-size: xx-small;
+        }
+        .form2 input{
+            font-size: xx-small;
+            width: 70px;
+        }
+        .cart button{
+            padding:0px ;
+             border-radius: 2px;
+             font-size: xx-small;
+        } 
+        
+}
+/* for ipad screen */
+@media only screen and (min-device-width : 768px)and (max-device-width : 1024px) {
+    header{
+        width: 100%;
+    }
+    .features .card1{
+        height: 200px;
+        width: 230px;
+       
+        border-radius: 10px;
+    }
+    .features .card1 img{
+        height: 100px;
+        width: 100px;
+        /* padding: 20px; */
+        
+    
+    }
+    .banner2{
+        width: 500px;
+        height: 300px;
+        background-size: 100% 100%;
+        padding: 30px 20px 20px 30px ;
+        left: 20px;
+    }
+    .banner3{
+        width:500px;
+        height: 300px;
+        padding:  30px 20px 20px 30px ;
+       left: 200px;
+    }
+    .details{
+        width: 350px;
+        height: 500px;
+    }
+
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    header{
+        width: 100%;
+    }
+    .banner2{
+        width: 600px;
+        height: 300px;
+        background-size: 100% 100%;
+        padding: 30px 20px 20px 30px ;
+        left: 20px;
+    }
+    .banner3{
+        width:600px;
+        height: 300px;
+        padding:  30px 20px 20px 30px ;
+       left: 380px;
+    }
+    
+  }
+  
+  
+  
+
+  
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .header_logo img{
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+     }
+     nav ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        margin-right: 20px;
+    }
+     .features{
+        margin: 10px 0px 10px 0px;
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+
+     
+    .features .card1{
+        height: 200px;
+        width: 200px;
+       
+        border-radius: 10px;
+    }
+    .features .card1 img{
+        height: 100px;
+        width: 100px;
+        /* padding: 20px; */
+        
+    
+    }
+    .banner2{
+        width: 250px;
+        height: 250px;
+        background-size: 100% 100%;
+        padding: 30px 20px 20px 30px ;
+        left: 20px;
+    }
+    .banner3{
+        width:250px;
+        height: 250px;
+        padding:  30px 20px 20px 30px ;
+       left: 230px;
+    }
+    .banner4{
+        height: 100px;
+        background-size: 100% 100%; 
+        font-size:xx-small;
+        
+    }
+    .banner5{
+        height: 100px;
+        background-size: 100% 100%;
+        color: white;
+        font-size: xx-small; 
+    }
+    .banner6{
+        height: 100px;
+        background-size: 100% 100%;
+       font-size: xx-small;
+    }
+    .details{
+        width: 200px;
+        height: 500px;
+        
+    }
+    .contact2 img{
+        height: 80px;
+        width: 80px;
+
+    }
+    .installapp2 img{
+        height: 80px;
+        width: 80px;
+    }
+    .part1{
+        margin-left: 20px;
+        font-size: xx-small;
+    }
+    .part2{
+        display: flex;
+        margin-right: 10px;
+        padding:0px;
+        height: 10px;
+        /* padding-top: 20px; */
+    
+    }
+    .button1 button{
+        height: 20px;
+        width: 50px;
+    }
+    .email input{
+        padding: 0px;
+    }
+    .shirt img{
+        height: 200px;
+        width: 200px;
+    }
+    .product2{
+        height: 300px;
+        width: 100px;
+    
+        
+    }
+   
+    .details input{
+        height: 5px; width: 5px;
+        font-size: xx-small;
+    }
+    .details button{
+        padding: 0px;
+    }
+    .products1{
+        height: 45px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    .product{
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        margin: 40px 0px 40px 0px;
+        
+    }
+    .contact1{
+       
+        margin: 20px 0px 50px 0px;
+    }
+    .map img{
+        height: 200px;
+        width: 200px;
+    }
+    .feedback input{
+       padding: 5px 100px 5px 5px;
+    }
+    .feedback textarea{
+        padding: 5px 100px 5px 5px;
+    }
+    .details2{
+        height: 100px;
+        width: 200px;
+        padding: 10px 0px 5px 0px;
+        font-size: xx-small;
+        
+    }
+    .people_img1{
+        height: 70px;
+        width: 70px;
+        
+    }
+    .people_img2{
+        height: 70px;
+        width: 70px;
+        
+    }
+    .people_img3{
+        height: 70px;
+        width: 70px;
+        
+    }
+    .people1{
+       
+        gap: 5px;
+        margin: 5px;
+        font-size: xx-small;
+    }
+    .feedback{
+        font-size: xx-small;
+    }
+    .feedback input{
+        padding:0px;
+
+     }
+     .feedback textarea{
+         padding:0px;
+     }
+     .form1{
+        
+        
+        margin: 5px;
+        padding: 0px;
+    }
+    .about1 img{
+        height: 150px;
+        width: 120px;
+    }
+    
+  }
+  @media (min-width: 1281px) {
+  
+    header{
+        width: 100%;
+    }
+    .banner3{
+        width:600px;
+        height: 300px;
+        padding:  30px 20px 20px 30px ;
+        
+    }
+   
+    
+  }
+  
+
+  
+  
+  
+
