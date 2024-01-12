@@ -122,19 +122,17 @@
         background: url(/img/banner/b17.jpg) no-repeat center ;
         background-size: 100% 100%;
         padding: 10px 0px 0px 10px ;
-        color: white;
-        position: relative;
+        
+       
         left: 20px;
         font-size: small;
     }
     .banner3{
         width: 150px;
         height: 150px;
-        
         background: url(/img/banner/b10.jpg) no-repeat;
         background-size: cover;
         padding:  10px 0px 0px 10px ;
-        position: relative;
        left: 100px;
        font-size: small;
         
@@ -164,15 +162,17 @@
        font-size: xx-small;
     }
     .banner7{
-        height: 100px;
+        height: 120px;
+        flex-wrap: wrap;
     }
     .part1{
         margin-left: 20px;
-        font-size: xx-small;
+        
     }
     .part2{
         display: flex;
-        margin-right: 10px;
+        
+        margin-left: 10px;
         padding:0px;
         height: 10px;
         /* padding-top: 20px; */
@@ -182,26 +182,20 @@
         padding:0px;
     }
     .email input{
-        padding: 0px;
+        padding: 12px;
     }
     .footer1{
         margin: 10px 0px 0px 10px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         font-size: xx-small;
     }
     .follow{
         padding-left: 5px;
     }
-    .contact2 img{
-        height: 50px;
-        width: 50px;
 
-    }
-    .installapp2 img{
-        height: 50px;
-        width: 50px;
-    }
+   
     .products1{
         height: 22px;
         width: 100%;
@@ -484,7 +478,7 @@
         width:250px;
         height: 250px;
         padding:  30px 20px 20px 30px ;
-       left: 230px;
+       left: 190px;
     }
     .banner4{
         height: 100px;
@@ -508,18 +502,21 @@
         height: 500px;
         
     }
-    .contact2 img{
-        height: 80px;
-        width: 80px;
-
+    .footer1{
+        margin: 50px 0px 0px 20px;
+        display: flex;
+        flex-wrap: wrap;
+       
     }
-    .installapp2 img{
-        height: 80px;
-        width: 80px;
+    .banner7{
+        height: 150px;
+       
     }
+    
+    
     .part1{
         margin-left: 20px;
-        font-size: xx-small;
+        
     }
     .part2{
         display: flex;
@@ -529,13 +526,7 @@
         /* padding-top: 20px; */
     
     }
-    .button1 button{
-        height: 20px;
-        width: 50px;
-    }
-    .email input{
-        padding: 0px;
-    }
+    
     .shirt img{
         height: 200px;
         width: 200px;
