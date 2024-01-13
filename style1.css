@@ -3,23 +3,44 @@
         width: 100%;
         
     }
-    .header_logo img{
-        width: 30px;
-        height: 40px;
-        background-color: aqua;
-     }
+    
      header img{
         margin-left: 10px;
     }
-    nav ul{
-       
-       
-        gap: 5px;
-        margin-right: 10px;
-    }
-    .navbar ul li{
+        nav ul{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 0px;
+            margin-right: 0px;
+            position: fixed;
+            top: 0px;
+            right: -300px;
+            height: 100vh;
+            width:100px ;
+            background-color:grey;
+            box-shadow: 0 40px 6px grey;
+            padding: 30px;
+           
+
+        }
+        #navbar.active{
+            right: 0px;
+        }
+
+    #navbar ul li{
         display: block;
     }
+    #mobile{
+        display: flex;
+        padding-right: 20px;
+        }
+        #closed{
+            display: flex;
+            position: absolute;
+            top: 10px;
+        }
     
     
     
@@ -432,16 +453,39 @@
 
   
   @media only screen and (min-width: 481px) and (max-width: 767px) {
-    .header_logo img{
-        width: 50px;
-        height: 50px;
-        background-color: aqua;
-     }
+   
      nav ul{
         display: flex;
-        list-style: none;
-        gap: 30px;
-        margin-right: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0px;
+        margin-right: 0px;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        height: 100vh;
+        width:100px ;
+        background-color:grey;
+        box-shadow: 0 40px 6px grey;
+        padding: 30px;
+       
+
+    }
+    #navbar.active{
+        right: 0px;
+    }
+
+#navbar ul li{
+    display: block;
+}
+#mobile{
+    display: flex;
+    padding-right: 20px;
+    }
+    #closed{
+        position: absolute;
+        top: 10px;
     }
      .features{
         margin: 10px 0px 10px 0px;

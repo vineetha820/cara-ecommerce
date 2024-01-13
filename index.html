@@ -15,15 +15,19 @@
              <img src="/img/logo-white.png" alt="logo" height="50">
         </div>
         <nav>
-            <div class="navbar">
-            <ul >
+            <div >
+            <ul  id="navbar">
                 <li><a href="#home">Home</a></li>
                 <li><a href="./shop.html">Shop</a></li>
                 <li><a href="./blog.html">Blog</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact Us</a></li>
                 <li><a href="./cart.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                <a href="#" id="closed"><i class="far fa-times"></i></a>
             </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
         </div>
         </nav>
     </header>
@@ -397,4 +401,20 @@
     <span><i class="fa-brands fa-youtube"></i></span>
 </div>
 </body>
+<script>
+    const bar=document.getElementById("bar");
+    const closed=document.getElementById("closed");
+    const nav=document.getElementById("navbar");
+   
+    if (bar){
+        bar.addEventListener('click',()=>{
+            nav.classList.add('active')
+        })
+    }
+    if (closed){
+        closed.addEventListener('click',()=>{
+            nav.classList.remove('active')
+        })
+    }
+</script>
 </html>
